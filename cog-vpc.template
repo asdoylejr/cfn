@@ -784,11 +784,6 @@
                 "DomainNameServers": [
                     "AmazonProvidedDNS"
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "fb4b39bd-83ed-4371-b80e-788224f42ec9"
-                }
             }
         },
         "VPC": {
@@ -807,11 +802,6 @@
                         }
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "74960bc3-a28f-44a2-90c4-515b1344318c"
-                }
             }
         },
         "VPCDHCPOptionsAssociation": {
@@ -822,11 +812,6 @@
                 },
                 "DhcpOptionsId": {
                     "Ref": "DHCPOptions"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "9c909196-080b-4cdd-927d-d9ff3f9f029d"
                 }
             }
         },
@@ -839,11 +824,6 @@
                         "Value": "Public"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "846b0b55-6683-4b27-ba0a-049a950a5423"
-                }
             }
         },
         "VPCGatewayAttachment": {
@@ -854,11 +834,6 @@
                 },
                 "InternetGatewayId": {
                     "Ref": "InternetGateway"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "fa47e031-4d1b-4247-8a3c-6a9567f49f60"
                 }
             }
         },
@@ -889,11 +864,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "9d60b90a-27db-4ca1-8d76-f0b263142bf8"
-                }
             }
         },
         "PrivateSubnet1B": {
@@ -923,11 +893,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "7329a0b9-cac3-4298-86da-b911bb3a55a2"
-                }
             }
         },
         "PrivateSubnet2A": {
@@ -957,11 +922,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "2a5fb078-523a-441f-9704-bb93555cf51f"
-                }
             }
         },
         "PrivateSubnet2B": {
@@ -991,11 +951,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "28a447e6-17ac-41d6-ba97-6d7d03dd9434"
-                }
             }
         },
         "PublicSubnet1": {
@@ -1026,11 +981,6 @@
                     }
                 ],
                 "MapPublicIpOnLaunch": true
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "465a1c70-2078-41c2-906d-fcda29b8fc10"
-                }
             }
         },
         "PublicSubnet2": {
@@ -1061,11 +1011,6 @@
                     }
                 ],
                 "MapPublicIpOnLaunch": true
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "42142c7f-a71c-45b2-a182-d112abeb996f"
-                }
             }
         },
         "PrivateSubnet1ARouteTable": {
@@ -1084,11 +1029,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "8ac0d3cf-e3a0-4124-b2b3-9af27224a3a8"
-                }
             }
         },
         "PrivateSubnet1ARoute": {
@@ -1101,11 +1041,6 @@
                 "NatGatewayId": {
                     "Ref": "NATGateway1"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "c891124c-41ee-4f91-9d14-9c86f245536d"
-                }
             }
         },
         "PrivateSubnet1ARouteTableAssociation": {
@@ -1116,11 +1051,6 @@
                 },
                 "RouteTableId": {
                     "Ref": "PrivateSubnet1ARouteTable"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "6f548e28-8667-40ca-a2f3-d480468bc497"
                 }
             }
         },
@@ -1140,11 +1070,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "43706b8b-312a-467f-9c04-9714b944927f"
-                }
             }
         },
         "PrivateSubnet2ARoute": {
@@ -1157,11 +1082,6 @@
                 "NatGatewayId": {
                     "Ref": "NATGateway2"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "ce085fa3-3bd9-43eb-8f40-2be1378c19d6"
-                }
             }
         },
         "PrivateSubnet2ARouteTableAssociation": {
@@ -1172,11 +1092,6 @@
                 },
                 "RouteTableId": {
                     "Ref": "PrivateSubnet2ARouteTable"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "756e0719-76bc-4b75-8933-004c3f46c17e"
                 }
             }
         },
@@ -1196,11 +1111,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "d9fdfe09-30f6-43dc-bb71-cc639c0b9675"
-                }
             }
         },
         "PrivateSubnet1BRoute": {
@@ -1213,11 +1123,6 @@
                 "NatGatewayId": {
                     "Ref": "NATGateway1"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "dfc86129-b764-403f-a34a-78d069464045"
-                }
             }
         },
         "PrivateSubnet1BRouteTableAssociation": {
@@ -1228,11 +1133,6 @@
                 },
                 "RouteTableId": {
                     "Ref": "PrivateSubnet1BRouteTable"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "f0b74e2e-edca-45c3-a783-d8e56ff9e4b2"
                 }
             }
         },
@@ -1252,11 +1152,6 @@
                         "Value": "NACL Protected"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "3ae6d9f9-b6ea-4ebb-acc6-bda7f5259398"
-                }
             }
         },
         "PrivateSubnet1BNetworkAclEntryInbound": {
@@ -1270,11 +1165,6 @@
                 "Protocol": "-1",
                 "RuleAction": "allow",
                 "RuleNumber": "100"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "ffc7c357-efa3-4dc4-b3eb-e3377bc17835"
-                }
             }
         },
         "PrivateSubnet1BNetworkAclEntryOutbound": {
@@ -1288,11 +1178,6 @@
                 "Protocol": "-1",
                 "RuleAction": "allow",
                 "RuleNumber": "100"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "4ebca57c-331e-4123-9231-0926ee7be57a"
-                }
             }
         },
         "PrivateSubnet1BNetworkAclAssociation": {
@@ -1303,11 +1188,6 @@
                 },
                 "NetworkAclId": {
                     "Ref": "PrivateSubnet1BNetworkAcl"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "8d545a19-8e41-41e9-a278-9a62ccb6aa09"
                 }
             }
         },
@@ -1327,11 +1207,6 @@
                         "Value": "Private"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "6cdd34a4-c7f2-4844-8e7f-01c2d1f006f2"
-                }
             }
         },
         "PrivateSubnet2BRoute": {
@@ -1344,11 +1219,6 @@
                 "NatGatewayId": {
                     "Ref": "NATGateway2"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "7363ffe5-f17d-49b8-b149-7749df89d425"
-                }
             }
         },
         "PrivateSubnet2BRouteTableAssociation": {
@@ -1359,11 +1229,6 @@
                 },
                 "RouteTableId": {
                     "Ref": "PrivateSubnet2BRouteTable"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "9e67e078-60f2-457e-b6ca-11e7a817182b"
                 }
             }
         },
@@ -1383,11 +1248,6 @@
                         "Value": "NACL Protected"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "34f80257-b772-461f-a731-02f2f188928b"
-                }
             }
         },
         "PrivateSubnet2BNetworkAclEntryInbound": {
@@ -1401,11 +1261,6 @@
                 "Protocol": "-1",
                 "RuleAction": "allow",
                 "RuleNumber": "100"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "8bbf8a30-85ce-45c7-bd73-96b09caaa4e0"
-                }
             }
         },
         "PrivateSubnet2BNetworkAclEntryOutbound": {
@@ -1419,11 +1274,6 @@
                 "Protocol": "-1",
                 "RuleAction": "allow",
                 "RuleNumber": "100"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "6b454e4a-d76e-4f68-92bc-bdf1e9bc09a6"
-                }
             }
         },
         "PrivateSubnet2BNetworkAclAssociation": {
@@ -1434,11 +1284,6 @@
                 },
                 "NetworkAclId": {
                     "Ref": "PrivateSubnet2BNetworkAcl"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "05daa145-8c4d-4f0e-90dd-d25d7adfda9a"
                 }
             }
         },
@@ -1458,11 +1303,6 @@
                         "Value": "Public"
                     }
                 ]
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "67f3141c-8887-4760-9e40-9faa87fb8e63"
-                }
             }
         },
         "PublicSubnetRoute": {
@@ -1476,11 +1316,6 @@
                 "GatewayId": {
                     "Ref": "InternetGateway"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "24d008e4-7dab-440f-9b09-12a7c1b9b04a"
-                }
             }
         },
         "PublicSubnet1RouteTableAssociation": {
@@ -1491,11 +1326,6 @@
                 },
                 "RouteTableId": {
                     "Ref": "PublicSubnetRouteTable"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "5b13df65-778b-4849-8e5c-612b4a9fd569"
                 }
             }
         },
@@ -1508,11 +1338,6 @@
                 "RouteTableId": {
                     "Ref": "PublicSubnetRouteTable"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "4dadebd0-d444-46cc-9f5d-103b2acca6c5"
-                }
             }
         },
         "NAT1EIP": {
@@ -1520,11 +1345,6 @@
             "Type": "AWS::EC2::EIP",
             "Properties": {
                 "Domain": "vpc"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "94ef1002-b19c-41ee-b036-d21cb1342811"
-                }
             }
         },
         "NAT2EIP": {
@@ -1532,11 +1352,6 @@
             "Type": "AWS::EC2::EIP",
             "Properties": {
                 "Domain": "vpc"
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "f79e8d57-14bd-4055-b95f-96bb606a4f48"
-                }
             }
         },
         "NATGateway1": {
@@ -1552,11 +1367,6 @@
                 "SubnetId": {
                     "Ref": "PublicSubnet1"
                 }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "6e20e8e5-d71b-4f4f-b155-0ebd2f3f9bd0"
-                }
             }
         },
         "NATGateway2": {
@@ -1571,11 +1381,6 @@
                 },
                 "SubnetId": {
                     "Ref": "PublicSubnet2"
-                }
-            },
-            "Metadata": {
-                "AWS::CloudFormation::Designer": {
-                    "id": "a91fb2cb-1695-4e28-8f05-345e20bbdeb4"
                 }
             }
         }
